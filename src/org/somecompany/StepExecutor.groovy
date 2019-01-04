@@ -1,7 +1,6 @@
 package org.somecompany
 
 class StepExecutor implements IStepExecutor {
-
     private _steps
 
     StepExecutor(steps) {
@@ -15,6 +14,6 @@ class StepExecutor implements IStepExecutor {
 
     @Override
     void error(String message) {
-        this._steps(message)
+        this._steps.error(message)
     }
 }
