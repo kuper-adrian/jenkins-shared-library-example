@@ -16,6 +16,8 @@ This way you should be able to:
 
 I suggest the IntelliJ IDEA for the least painful Jenkins Shared Library development experience ;)
 
+Head over to my [blog post](https://dev.to/kuperadrian/how-to-setup-a-unit-testable-jenkins-shared-pipeline-library-2e62) on dev.to if you want a tutorial/more detailed explanation.
+
 ## Example Jenkinsfile
 
 ```
